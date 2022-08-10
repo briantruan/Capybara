@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00C39AA28A2FE9200A94237 /* CapybaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39A928A2FE9200A94237 /* CapybaraApp.swift */; };
+		B00C39AC28A2FE9200A94237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39AB28A2FE9200A94237 /* ContentView.swift */; };
+		B00C39AE28A2FE9300A94237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00C39AD28A2FE9300A94237 /* Assets.xcassets */; };
+		B00C39B128A2FE9300A94237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00C39B028A2FE9300A94237 /* Preview Assets.xcassets */; };
+		B00C39BC28A2FE9300A94237 /* CapybaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39BB28A2FE9300A94237 /* CapybaraTests.swift */; };
+		B00C39C628A2FE9300A94237 /* CapybaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39C528A2FE9300A94237 /* CapybaraUITests.swift */; };
+		B00C39C828A2FE9300A94237 /* CapybaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39C728A2FE9300A94237 /* CapybaraUITestsLaunchTests.swift */; };
+		B00C39D728A2FEE700A94237 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39D628A2FEE700A94237 /* Course.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B00C39B828A2FE9300A94237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00C399E28A2FE9200A94237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00C39A528A2FE9200A94237;
+			remoteInfo = Capybara;
+		};
+		B00C39C228A2FE9300A94237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B00C399E28A2FE9200A94237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00C39A528A2FE9200A94237;
+			remoteInfo = Capybara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B00C39A628A2FE9200A94237 /* Capybara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capybara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00C39A928A2FE9200A94237 /* CapybaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapybaraApp.swift; sourceTree = "<group>"; };
+		B00C39AB28A2FE9200A94237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B00C39AD28A2FE9300A94237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00C39B028A2FE9300A94237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B00C39B228A2FE9300A94237 /* Capybara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Capybara.entitlements; sourceTree = "<group>"; };
+		B00C39B728A2FE9300A94237 /* CapybaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapybaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00C39BB28A2FE9300A94237 /* CapybaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapybaraTests.swift; sourceTree = "<group>"; };
+		B00C39C128A2FE9300A94237 /* CapybaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapybaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00C39C528A2FE9300A94237 /* CapybaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapybaraUITests.swift; sourceTree = "<group>"; };
+		B00C39C728A2FE9300A94237 /* CapybaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapybaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B00C39D628A2FEE700A94237 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00C39A328A2FE9200A94237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C39B428A2FE9300A94237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C39BE28A2FE9300A94237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B00C399D28A2FE9200A94237 = {
+			isa = PBXGroup;
+			children = (
+				B00C39A828A2FE9200A94237 /* Capybara */,
+				B00C39BA28A2FE9300A94237 /* CapybaraTests */,
+				B00C39C428A2FE9300A94237 /* CapybaraUITests */,
+				B00C39A728A2FE9200A94237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B00C39A728A2FE9200A94237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39A628A2FE9200A94237 /* Capybara.app */,
+				B00C39B728A2FE9300A94237 /* CapybaraTests.xctest */,
+				B00C39C128A2FE9300A94237 /* CapybaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00C39A828A2FE9200A94237 /* Capybara */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39D428A2FEA600A94237 /* Model */,
+				B00C39D528A2FEAF00A94237 /* View */,
+				B00C39A928A2FE9200A94237 /* CapybaraApp.swift */,
+				B00C39AD28A2FE9300A94237 /* Assets.xcassets */,
+				B00C39B228A2FE9300A94237 /* Capybara.entitlements */,
+				B00C39AF28A2FE9300A94237 /* Preview Content */,
+			);
+			path = Capybara;
+			sourceTree = "<group>";
+		};
+		B00C39AF28A2FE9300A94237 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39B028A2FE9300A94237 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B00C39BA28A2FE9300A94237 /* CapybaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39BB28A2FE9300A94237 /* CapybaraTests.swift */,
+			);
+			path = CapybaraTests;
+			sourceTree = "<group>";
+		};
+		B00C39C428A2FE9300A94237 /* CapybaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39C528A2FE9300A94237 /* CapybaraUITests.swift */,
+				B00C39C728A2FE9300A94237 /* CapybaraUITestsLaunchTests.swift */,
+			);
+			path = CapybaraUITests;
+			sourceTree = "<group>";
+		};
+		B00C39D428A2FEA600A94237 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39D628A2FEE700A94237 /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B00C39D528A2FEAF00A94237 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39AB28A2FE9200A94237 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00C39A528A2FE9200A94237 /* Capybara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00C39CB28A2FE9300A94237 /* Build configuration list for PBXNativeTarget "Capybara" */;
+			buildPhases = (
+				B00C39A228A2FE9200A94237 /* Sources */,
+				B00C39A328A2FE9200A94237 /* Frameworks */,
+				B00C39A428A2FE9200A94237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capybara;
+			productName = Capybara;
+			productReference = B00C39A628A2FE9200A94237 /* Capybara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00C39B628A2FE9300A94237 /* CapybaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00C39CE28A2FE9300A94237 /* Build configuration list for PBXNativeTarget "CapybaraTests" */;
+			buildPhases = (
+				B00C39B328A2FE9300A94237 /* Sources */,
+				B00C39B428A2FE9300A94237 /* Frameworks */,
+				B00C39B528A2FE9300A94237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00C39B928A2FE9300A94237 /* PBXTargetDependency */,
+			);
+			name = CapybaraTests;
+			productName = CapybaraTests;
+			productReference = B00C39B728A2FE9300A94237 /* CapybaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B00C39C028A2FE9300A94237 /* CapybaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00C39D128A2FE9300A94237 /* Build configuration list for PBXNativeTarget "CapybaraUITests" */;
+			buildPhases = (
+				B00C39BD28A2FE9300A94237 /* Sources */,
+				B00C39BE28A2FE9300A94237 /* Frameworks */,
+				B00C39BF28A2FE9300A94237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00C39C328A2FE9300A94237 /* PBXTargetDependency */,
+			);
+			name = CapybaraUITests;
+			productName = CapybaraUITests;
+			productReference = B00C39C128A2FE9300A94237 /* CapybaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00C399E28A2FE9200A94237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B00C39A528A2FE9200A94237 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B00C39B628A2FE9300A94237 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B00C39A528A2FE9200A94237;
+					};
+					B00C39C028A2FE9300A94237 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B00C39A528A2FE9200A94237;
+					};
+				};
+			};
+			buildConfigurationList = B00C39A128A2FE9200A94237 /* Build configuration list for PBXProject "Capybara" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00C399D28A2FE9200A94237;
+			productRefGroup = B00C39A728A2FE9200A94237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00C39A528A2FE9200A94237 /* Capybara */,
+				B00C39B628A2FE9300A94237 /* CapybaraTests */,
+				B00C39C028A2FE9300A94237 /* CapybaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00C39A428A2FE9200A94237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00C39B128A2FE9300A94237 /* Preview Assets.xcassets in Resources */,
+				B00C39AE28A2FE9300A94237 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C39B528A2FE9300A94237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C39BF28A2FE9300A94237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00C39A228A2FE9200A94237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00C39D728A2FEE700A94237 /* Course.swift in Sources */,
+				B00C39AC28A2FE9200A94237 /* ContentView.swift in Sources */,
+				B00C39AA28A2FE9200A94237 /* CapybaraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C39B328A2FE9300A94237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00C39BC28A2FE9300A94237 /* CapybaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00C39BD28A2FE9300A94237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00C39C828A2FE9300A94237 /* CapybaraUITestsLaunchTests.swift in Sources */,
+				B00C39C628A2FE9300A94237 /* CapybaraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00C39B928A2FE9300A94237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00C39A528A2FE9200A94237 /* Capybara */;
+			targetProxy = B00C39B828A2FE9300A94237 /* PBXContainerItemProxy */;
+		};
+		B00C39C328A2FE9300A94237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00C39A528A2FE9200A94237 /* Capybara */;
+			targetProxy = B00C39C228A2FE9300A94237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B00C39C928A2FE9300A94237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00C39CA28A2FE9300A94237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B00C39CC28A2FE9300A94237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Capybara/Capybara.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capybara/Preview Content\"";
+				DEVELOPMENT_TEAM = 59TW97MV26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.briantruan.Capybara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B00C39CD28A2FE9300A94237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Capybara/Capybara.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capybara/Preview Content\"";
+				DEVELOPMENT_TEAM = 59TW97MV26;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.briantruan.Capybara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B00C39CF28A2FE9300A94237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59TW97MV26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.briantruan.CapybaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capybara.app/Contents/MacOS/Capybara";
+			};
+			name = Debug;
+		};
+		B00C39D028A2FE9300A94237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59TW97MV26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.briantruan.CapybaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capybara.app/Contents/MacOS/Capybara";
+			};
+			name = Release;
+		};
+		B00C39D228A2FE9300A94237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59TW97MV26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.briantruan.CapybaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Capybara;
+			};
+			name = Debug;
+		};
+		B00C39D328A2FE9300A94237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59TW97MV26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.briantruan.CapybaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Capybara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00C39A128A2FE9200A94237 /* Build configuration list for PBXProject "Capybara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00C39C928A2FE9300A94237 /* Debug */,
+				B00C39CA28A2FE9300A94237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00C39CB28A2FE9300A94237 /* Build configuration list for PBXNativeTarget "Capybara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00C39CC28A2FE9300A94237 /* Debug */,
+				B00C39CD28A2FE9300A94237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00C39CE28A2FE9300A94237 /* Build configuration list for PBXNativeTarget "CapybaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00C39CF28A2FE9300A94237 /* Debug */,
+				B00C39D028A2FE9300A94237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00C39D128A2FE9300A94237 /* Build configuration list for PBXNativeTarget "CapybaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00C39D228A2FE9300A94237 /* Debug */,
+				B00C39D328A2FE9300A94237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00C399E28A2FE9200A94237 /* Project object */;
+}
