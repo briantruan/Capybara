@@ -22,6 +22,6 @@ struct Course: Identifiable, Codable {
     var comments = ""
     var dateModified = Date.now
     
-    var activated = true
-    var favorited = false
+    var isActivated = true
+    var isFavorited = false
 }
