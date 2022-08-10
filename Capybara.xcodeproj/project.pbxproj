@@ -18,6 +18,7 @@
 		B00C39D928A33E4900A94237 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39D828A33E4800A94237 /* Activity.swift */; };
 		B00C39DC28A3471000A94237 /* ActivityKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39DB28A3471000A94237 /* ActivityKit.swift */; };
 		B00C39DE28A3474E00A94237 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39DD28A3474E00A94237 /* Model.swift */; };
+		B00C39E228A3DF7400A94237 /* Mockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E128A3DF7400A94237 /* Mockup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B00C39D828A33E4800A94237 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		B00C39DB28A3471000A94237 /* ActivityKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityKit.swift; sourceTree = "<group>"; };
 		B00C39DD28A3474E00A94237 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B00C39E128A3DF7400A94237 /* Mockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 		B00C39A828A2FE9200A94237 /* Capybara */ = {
 			isa = PBXGroup;
 			children = (
-				B00C39DA28A346F900A94237 /* Logic */,
+				B00C39DF28A3DF1E00A94237 /* Design */,
+				B00C39DA28A346F900A94237 /* Kits */,
 				B00C39D428A2FEA600A94237 /* Model */,
 				B00C39D528A2FEAF00A94237 /* View */,
 				B00C39A928A2FE9200A94237 /* CapybaraApp.swift */,
@@ -157,12 +160,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B00C39DA28A346F900A94237 /* Logic */ = {
+		B00C39DA28A346F900A94237 /* Kits */ = {
 			isa = PBXGroup;
 			children = (
 				B00C39DB28A3471000A94237 /* ActivityKit.swift */,
 			);
-			path = Logic;
+			path = Kits;
+			sourceTree = "<group>";
+		};
+		B00C39DF28A3DF1E00A94237 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39E128A3DF7400A94237 /* Mockup.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00C39E228A3DF7400A94237 /* Mockup.swift in Sources */,
 				B00C39D728A2FEE700A94237 /* Course.swift in Sources */,
 				B00C39DC28A3471000A94237 /* ActivityKit.swift in Sources */,
 				B00C39AC28A2FE9200A94237 /* ContentView.swift in Sources */,

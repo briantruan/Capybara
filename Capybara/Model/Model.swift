@@ -8,8 +8,9 @@
 import Foundation
 
 final class Model: ObservableObject {
-    @Published var courses: [Course] = []
+    @Published var courses: [Course] = decodeJson("userdata.json")
 }
+
 /// Initializes a new JSON file.
 ///
 /// - Parameter path: Path to the ``fileName``
@@ -71,10 +72,40 @@ private func encodeJson<T: Encodable>(_ value: T) -> Data {
     }
 }
 
-func writeJson() {
-    // TODO: implement
+/// Write to the file after encoding (see ``#encodeJson()``)
+///
+/// - Parameter data: The result of ``#encodeJson()``
+/// - Parameter fileName: Name of the file
+/// - Parameter appendingPath: Path of the directory in which the file should be written to
+/// - Returns: Void
+
+private func writeJson(_ data: Data, fileName: String, appendingPath: String? = nil) {
+    let docPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+    let path = docPath?.appendingPathComponent(appendingPath ?? "")
+    guard let file = path?.appendingPathComponent(fileName) else {
+        fatalError("Could not find \(fileName) in documents folder.")
+    }
+    do {
+        try data.write(to: file)
+    } catch {
+        fatalError("\(error)")
+    }
 }
 
-func reloadJson() {
-    // TODO: implement
+/// Reload (encode, write, and decode) any JSON file and type.
+///
+/// - Parameter value: Codable type, like ``Course``
+/// - Parameter fileName: Name of the file
+/// - Parameter appendingPath: Path of the directory in which the file should be encoded and written to, and decoded from
+/// - Returns: Void
+
+func reloadJson<T: Encodable>(_ value: T, _ fileName: String, appendingPath: String? = nil) {
+    let encoded = encodeJson(value)
+    writeJson(encoded, fileName: fileName, appendingPath: appendingPath)
+    // This is hard-coded because there is no great way to make this a generic
+    if (type(of: value) == [Course].self) {
+        Model().courses = decodeJson(fileName)
+    } else {
+        fatalError("Value is not of Course type.")
+    }
 }
