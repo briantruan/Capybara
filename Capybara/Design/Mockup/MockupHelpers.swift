@@ -13,6 +13,18 @@ func mockCircleButton(_ systemName: String) -> some View {
         .buttonStyle(.borderless)
 }
 
+func mockToggleButton(_ systemName: String, active: Binding<Bool>, color: Color) -> some View {
+    return HStack {
+        Button {
+            active.wrappedValue = !active.wrappedValue
+        } label: {
+            Image(systemName: "\(systemName)\(active.wrappedValue ? ".fill" : "")")
+        }
+        .tint(active.wrappedValue ? color : .primary)
+        .buttonStyle(.borderless)
+    }
+}
+
 func mockGauge(_ desc: String, displayedTime: String, progress: Float) -> some View {
     return HStack {
         ZStack {
@@ -35,13 +47,27 @@ func mockActivity() -> some View {
         mockCircleButton("pencil.circle")
             .tint(.orange)
         let difference = (Date.now.timeIntervalSinceReferenceDate/60 - Date(timeIntervalSinceNow: -3000).timeIntervalSinceReferenceDate/60)
-        Text("Lecture - \(Int(difference.rounded()))m")
-        Text("Start: \(Date(timeIntervalSinceNow: -3000).formatted())")
+        Text("\(Int(difference.rounded()))m Lecture:")
+        Text("started at \(Date(timeIntervalSinceNow: -3000).formatted()),")
             .italic()
             .foregroundColor(.secondary)
-        Text("End: \(Date.now.formatted())")
+        Text("ended at \(Date.now.formatted())")
             .italic()
             .foregroundColor(.secondary)
     }
     .frame(maxWidth: .infinity, alignment: .leading)
+}
+
+func mockTextField(_ desc: String, text: String,
+                   binding: Binding<String>, width: CGFloat = .infinity) -> some View {
+    return VStack {
+        TextField(text, text: binding)
+            .frame(maxWidth: width)
+        Text(desc)
+            .italic()
+            .font(.system(size: 8))
+            .offset(x: 2, y: -4)
+            .frame(maxWidth: width, alignment: .leading)
+    }
+    .frame(maxWidth: width, alignment: .leading)
 }
