@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Mockup: View {
+struct CourseEditorMockup: View {
     
     @State private var icon = 0
     @State private var dummy0 = ""
@@ -112,8 +112,8 @@ struct Mockup: View {
     }
 }
 
-struct Mockup_Previews: PreviewProvider {
+struct CourseEditorMockup_Previews: PreviewProvider {
     static var previews: some View {
-        Mockup()
+        CourseEditorMockup()
     }
 }

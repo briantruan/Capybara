@@ -16,7 +16,7 @@ struct LandingView: View {
             Text("Course time management app")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
-            Mockup()
+            CourseEditorMockup()
         }
         .padding(20)
     }

@@ -18,7 +18,7 @@
 		B00C39D928A33E4900A94237 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39D828A33E4800A94237 /* Activity.swift */; };
 		B00C39DC28A3471000A94237 /* ActivityKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39DB28A3471000A94237 /* ActivityKit.swift */; };
 		B00C39DE28A3474E00A94237 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39DD28A3474E00A94237 /* Model.swift */; };
-		B00C39E228A3DF7400A94237 /* Mockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E128A3DF7400A94237 /* Mockup.swift */; };
+		B00C39E228A3DF7400A94237 /* CourseEditorMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E128A3DF7400A94237 /* CourseEditorMockup.swift */; };
 		B00C39E628A3F6A200A94237 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E528A3F6A200A94237 /* ViewHelpers.swift */; };
 		B00C39E828A3F6D100A94237 /* MockupHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E728A3F6D100A94237 /* MockupHelpers.swift */; };
 		B00C39EA28A3F98300A94237 /* ActivityEditorMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */; };
@@ -59,7 +59,7 @@
 		B00C39D828A33E4800A94237 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		B00C39DB28A3471000A94237 /* ActivityKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityKit.swift; sourceTree = "<group>"; };
 		B00C39DD28A3474E00A94237 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		B00C39E128A3DF7400A94237 /* Mockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockup.swift; sourceTree = "<group>"; };
+		B00C39E128A3DF7400A94237 /* CourseEditorMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEditorMockup.swift; sourceTree = "<group>"; };
 		B00C39E528A3F6A200A94237 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
 		B00C39E728A3F6D100A94237 /* MockupHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupHelpers.swift; sourceTree = "<group>"; };
 		B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEditorMockup.swift; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 		B00C39F028A4332500A94237 /* Mockup */ = {
 			isa = PBXGroup;
 			children = (
-				B00C39E128A3DF7400A94237 /* Mockup.swift */,
+				B00C39E128A3DF7400A94237 /* CourseEditorMockup.swift */,
 				B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */,
 				B00C39E728A3F6D100A94237 /* MockupHelpers.swift */,
 			);
@@ -329,7 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00C39E228A3DF7400A94237 /* Mockup.swift in Sources */,
+				B00C39E228A3DF7400A94237 /* CourseEditorMockup.swift in Sources */,
 				B00C39D728A2FEE700A94237 /* Course.swift in Sources */,
 				B00C39E828A3F6D100A94237 /* MockupHelpers.swift in Sources */,
 				B00C39E628A3F6A200A94237 /* ViewHelpers.swift in Sources */,
