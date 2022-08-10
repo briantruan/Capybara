@@ -11,6 +11,7 @@ struct Course: Identifiable, Codable {
     // internal
     var id = UUID().uuidString
     
+    var icon: Int
     var code: String
     var name: String
     var instructor = ""

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B00C39AA28A2FE9200A94237 /* CapybaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39A928A2FE9200A94237 /* CapybaraApp.swift */; };
-		B00C39AC28A2FE9200A94237 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39AB28A2FE9200A94237 /* ContentView.swift */; };
+		B00C39AC28A2FE9200A94237 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39AB28A2FE9200A94237 /* LandingView.swift */; };
 		B00C39AE28A2FE9300A94237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00C39AD28A2FE9300A94237 /* Assets.xcassets */; };
 		B00C39B128A2FE9300A94237 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00C39B028A2FE9300A94237 /* Preview Assets.xcassets */; };
 		B00C39BC28A2FE9300A94237 /* CapybaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39BB28A2FE9300A94237 /* CapybaraTests.swift */; };
@@ -19,11 +19,11 @@
 		B00C39DC28A3471000A94237 /* ActivityKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39DB28A3471000A94237 /* ActivityKit.swift */; };
 		B00C39DE28A3474E00A94237 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39DD28A3474E00A94237 /* Model.swift */; };
 		B00C39E228A3DF7400A94237 /* Mockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E128A3DF7400A94237 /* Mockup.swift */; };
-		B00C39E428A3F68700A94237 /* CourseEditorMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E328A3F68700A94237 /* CourseEditorMockup.swift */; };
 		B00C39E628A3F6A200A94237 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E528A3F6A200A94237 /* ViewHelpers.swift */; };
 		B00C39E828A3F6D100A94237 /* MockupHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E728A3F6D100A94237 /* MockupHelpers.swift */; };
 		B00C39EA28A3F98300A94237 /* ActivityEditorMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */; };
 		B00C39EC28A3F99000A94237 /* CourseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39EB28A3F99000A94237 /* CourseKit.swift */; };
+		B00C39EE28A4331700A94237 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39ED28A4331700A94237 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 /* Begin PBXFileReference section */
 		B00C39A628A2FE9200A94237 /* Capybara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capybara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00C39A928A2FE9200A94237 /* CapybaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapybaraApp.swift; sourceTree = "<group>"; };
-		B00C39AB28A2FE9200A94237 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B00C39AB28A2FE9200A94237 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		B00C39AD28A2FE9300A94237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00C39B028A2FE9300A94237 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B00C39B228A2FE9300A94237 /* Capybara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Capybara.entitlements; sourceTree = "<group>"; };
@@ -60,11 +60,11 @@
 		B00C39DB28A3471000A94237 /* ActivityKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityKit.swift; sourceTree = "<group>"; };
 		B00C39DD28A3474E00A94237 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B00C39E128A3DF7400A94237 /* Mockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockup.swift; sourceTree = "<group>"; };
-		B00C39E328A3F68700A94237 /* CourseEditorMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEditorMockup.swift; sourceTree = "<group>"; };
 		B00C39E528A3F6A200A94237 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
 		B00C39E728A3F6D100A94237 /* MockupHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockupHelpers.swift; sourceTree = "<group>"; };
 		B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEditorMockup.swift; sourceTree = "<group>"; };
 		B00C39EB28A3F99000A94237 /* CourseKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseKit.swift; sourceTree = "<group>"; };
+		B00C39ED28A4331700A94237 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 		B00C39D528A2FEAF00A94237 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B00C39AB28A2FE9200A94237 /* ContentView.swift */,
+				B00C39AB28A2FE9200A94237 /* LandingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,13 +182,21 @@
 		B00C39DF28A3DF1E00A94237 /* Design */ = {
 			isa = PBXGroup;
 			children = (
-				B00C39E128A3DF7400A94237 /* Mockup.swift */,
-				B00C39E328A3F68700A94237 /* CourseEditorMockup.swift */,
-				B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */,
+				B00C39F028A4332500A94237 /* Mockup */,
+				B00C39ED28A4331700A94237 /* Constants.swift */,
 				B00C39E528A3F6A200A94237 /* ViewHelpers.swift */,
-				B00C39E728A3F6D100A94237 /* MockupHelpers.swift */,
 			);
 			path = Design;
+			sourceTree = "<group>";
+		};
+		B00C39F028A4332500A94237 /* Mockup */ = {
+			isa = PBXGroup;
+			children = (
+				B00C39E128A3DF7400A94237 /* Mockup.swift */,
+				B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */,
+				B00C39E728A3F6D100A94237 /* MockupHelpers.swift */,
+			);
+			path = Mockup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,15 +332,15 @@
 				B00C39E228A3DF7400A94237 /* Mockup.swift in Sources */,
 				B00C39D728A2FEE700A94237 /* Course.swift in Sources */,
 				B00C39E828A3F6D100A94237 /* MockupHelpers.swift in Sources */,
-				B00C39E428A3F68700A94237 /* CourseEditorMockup.swift in Sources */,
 				B00C39E628A3F6A200A94237 /* ViewHelpers.swift in Sources */,
 				B00C39DC28A3471000A94237 /* ActivityKit.swift in Sources */,
 				B00C39EA28A3F98300A94237 /* ActivityEditorMockup.swift in Sources */,
 				B00C39EC28A3F99000A94237 /* CourseKit.swift in Sources */,
-				B00C39AC28A2FE9200A94237 /* ContentView.swift in Sources */,
+				B00C39AC28A2FE9200A94237 /* LandingView.swift in Sources */,
 				B00C39DE28A3474E00A94237 /* Model.swift in Sources */,
 				B00C39D928A33E4900A94237 /* Activity.swift in Sources */,
 				B00C39AA28A2FE9200A94237 /* CapybaraApp.swift in Sources */,
+				B00C39EE28A4331700A94237 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

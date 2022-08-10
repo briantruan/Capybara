@@ -1,5 +1,5 @@
 //
-//  CourseEditorMockup.swift
+//  ActivityEditorMockup.swift
 //  Capybara
 //
 //  Created by Brian Ruan on 8/10/22.
@@ -7,17 +7,15 @@
 
 import SwiftUI
 
-struct CourseEditorMockup: View {
+struct ActivityEditorMockup: View {
     var body: some View {
         VStack {
             HStack {
-                header("Course Editor", icon: Image(systemName: "text.book.closed"))
+                header("Activity Editor", icon: Image(systemName: "textformat.abc.dottedunderline"))
                 mockCircleButton("tray.circle")
                     .tint(.green)
-                Text("Save")
                 mockCircleButton("minus.circle")
                     .tint(.yellow)
-                Text("Cancel")
             }
             
             Divider()
@@ -28,8 +26,8 @@ struct CourseEditorMockup: View {
     }
 }
 
-struct CourseEditorMockup_Previews: PreviewProvider {
+struct ActivityEditorMockup_Previews: PreviewProvider {
     static var previews: some View {
-        CourseEditorMockup()
+        ActivityEditorMockup()
     }
 }

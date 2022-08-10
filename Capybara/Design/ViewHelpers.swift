@@ -16,6 +16,7 @@ func header(_ desc: String, icon: Image?, isSubheader: Bool = false) -> some Vie
         Text(desc)
             .font(isSubheader ? .subheadline : .headline)
             .fontWeight(isSubheader ? .thin : .heavy)
+            .textSelection(.enabled)
     }
     .frame(maxWidth: .infinity, alignment: .leading)
 }
