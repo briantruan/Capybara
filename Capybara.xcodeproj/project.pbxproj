@@ -24,6 +24,9 @@
 		B00C39EA28A3F98300A94237 /* ActivityEditorMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */; };
 		B00C39EC28A3F99000A94237 /* CourseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39EB28A3F99000A94237 /* CourseKit.swift */; };
 		B00C39EE28A4331700A94237 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39ED28A4331700A94237 /* Constants.swift */; };
+		B00C39F228A4443100A94237 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39F128A4443100A94237 /* CourseView.swift */; };
+		B00C39F428A4443D00A94237 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39F328A4443D00A94237 /* ActivityView.swift */; };
+		B00C39F628A4444800A94237 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39F528A4444800A94237 /* PreferencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEditorMockup.swift; sourceTree = "<group>"; };
 		B00C39EB28A3F99000A94237 /* CourseKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseKit.swift; sourceTree = "<group>"; };
 		B00C39ED28A4331700A94237 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B00C39F128A4443100A94237 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		B00C39F328A4443D00A94237 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B00C39F528A4444800A94237 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				B00C39AB28A2FE9200A94237 /* LandingView.swift */,
+				B00C39F128A4443100A94237 /* CourseView.swift */,
+				B00C39F328A4443D00A94237 /* ActivityView.swift */,
+				B00C39F528A4444800A94237 /* PreferencesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,7 +347,10 @@
 				B00C39EC28A3F99000A94237 /* CourseKit.swift in Sources */,
 				B00C39AC28A2FE9200A94237 /* LandingView.swift in Sources */,
 				B00C39DE28A3474E00A94237 /* Model.swift in Sources */,
+				B00C39F228A4443100A94237 /* CourseView.swift in Sources */,
+				B00C39F628A4444800A94237 /* PreferencesView.swift in Sources */,
 				B00C39D928A33E4900A94237 /* Activity.swift in Sources */,
+				B00C39F428A4443D00A94237 /* ActivityView.swift in Sources */,
 				B00C39AA28A2FE9200A94237 /* CapybaraApp.swift in Sources */,
 				B00C39EE28A4331700A94237 /* Constants.swift in Sources */,
 			);
