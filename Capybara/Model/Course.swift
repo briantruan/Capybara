@@ -16,4 +16,11 @@ struct Course: Identifiable, Codable {
     var instructor = ""
     var term = ""
     
+    var activities: [Activity] = []
+    
+    var comments = ""
+    var dateModified = Date.now
+    
+    var activated = true
+    var favorited = false
 }
