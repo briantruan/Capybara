@@ -11,4 +11,4 @@ let iconSet: [String] = ["laptopcomputer", "graduationcap", "books.vertical", "b
                          "sum", "atom", "testtube.2", "cloud.moon.rain", "dollarsign.square",
                          "camera", "person.3", "cpu", "gearshape.2", "pills", "square.and.pencil",
                          "rosette", "music.mic", "music.note.list", "pawprint", "globe.americas",
-                         "cross", "bed.double"]
+                         "cross", "bed.double", "text.book.closed"]

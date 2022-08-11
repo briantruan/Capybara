@@ -60,6 +60,7 @@ struct CourseEditorMockup: View {
             // Activity overview
             VStack {
                 mockGauge("Total Time", displayedTime: "149h", progress: 0.25)
+                    .padding(.vertical, 0.0)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 HStack {
                     VStack {
