@@ -10,10 +10,10 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         VStack {
-            Text("Capybara (Mockup)")
+            Text("Real Capy")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-            Text("Course time management app")
+            Text("Real")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
             CourseEditorMockup()
