@@ -8,22 +8,34 @@
 import SwiftUI
 
 struct LandingView: View {
+    
+    @EnvironmentObject private var model: Model
+    
     var body: some View {
-        VStack {
-            Text("Capybara (Mockup)")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-            Text("Course time management app")
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-            CourseEditorMockup()
+        NavigationView {
+            SidebarView()
+                .environmentObject(Model())
+            showLanding()
         }
-        .padding(20)
     }
 }
 
 struct LandingView_Previews: PreviewProvider {
     static var previews: some View {
         LandingView()
+            .environmentObject(Model())
     }
+}
+
+func showLanding() -> some View {
+    return VStack {
+        Text("Capybara")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+        Text("Course time management app")
+            .font(.subheadline)
+            .foregroundColor(.secondary)
+    }
+    .padding(20)
+    .frame(minWidth: 600, minHeight: 400)
 }
