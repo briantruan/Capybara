@@ -29,7 +29,7 @@ func mockGauge(_ desc: String, displayedTime: String, progress: Float) -> some V
     return HStack {
         ZStack {
             ProgressView(value: progress)
-                .tint(.orange)
+                .tint(.green)
                 .progressViewStyle(.circular)
             Text(displayedTime)
                 .font(.system(size: 8))
@@ -45,7 +45,7 @@ func mockGauge(_ desc: String, displayedTime: String, progress: Float) -> some V
 func mockActivity() -> some View {
     return HStack {
         mockCircleButton("pencil.circle")
-            .tint(.orange)
+            .tint(.green)
         let difference = (Date.now.timeIntervalSinceReferenceDate/60 - Date(timeIntervalSinceNow: -3000).timeIntervalSinceReferenceDate/60)
         Text("\(Int(difference.rounded()))m Lecture:")
         Text("started at \(Date(timeIntervalSinceNow: -3000).formatted()),")

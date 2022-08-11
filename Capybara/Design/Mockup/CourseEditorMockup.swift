@@ -22,18 +22,7 @@ struct CourseEditorMockup: View {
         VStack {
             // Course information
             HStack {
-                Button {
-                    if (icon == iconSet.count - 1) {
-                        icon = 0
-                    } else {
-                        icon += 1
-                    }
-                } label: {
-                    Image(systemName: iconSet[icon])
-                        .foregroundColor(.primary)
-                }
-                .frame(maxWidth: 25, maxHeight: 25)
-                .buttonStyle(.borderless)
+                courseIconIterator($icon)
                 TextField("Course Code", text: $dummy0)
                     .textFieldStyle(.plain)
                     .font(.headline)

@@ -18,7 +18,17 @@ final class Model: ObservableObject {
 /// - Returns: Void
 
 private func createJson(path: URL, fileName: String) {
-    // TODO: implement
+    let emptyJsonArray: [String] = []
+    let data = encodeJson(emptyJsonArray)
+    
+    let fm = FileManager.default
+    do {
+        try fm.createDirectory(at: path, withIntermediateDirectories: true, attributes: nil)
+        let pathAppended = path.appendingPathComponent(fileName)
+        try data.write(to: pathAppended)
+    } catch {
+        fatalError("\(error)")
+    }
 }
 
 /// Decode from JSON to any Codable type

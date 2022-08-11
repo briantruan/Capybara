@@ -18,6 +18,9 @@ struct Course: Identifiable, Codable {
     var term = ""
     
     var activities: [Activity] = []
+    var todo: [TodoItem] = []
+    // notes manager
+//    var notes: [Note] = []
     
     var comments = ""
     var dateModified = Date.now
