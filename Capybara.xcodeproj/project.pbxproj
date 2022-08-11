@@ -29,6 +29,7 @@
 		B00C39F628A4444800A94237 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39F528A4444800A94237 /* PreferencesView.swift */; };
 		B00C39F828A48ED100A94237 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00C39F728A48ED100A94237 /* SidebarView.swift */; };
 		B02F830728A53850007F2F90 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F830628A53850007F2F90 /* TodoItem.swift */; };
+		B02F830928A549F1007F2F90 /* FigmaMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F830828A549F1007F2F90 /* FigmaMockup.swift */; };
 		B05A670328A535FA0071548D /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A670228A535FA0071548D /* TodoListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		B00C39F528A4444800A94237 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		B00C39F728A48ED100A94237 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		B02F830628A53850007F2F90 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		B02F830828A549F1007F2F90 /* FigmaMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaMockup.swift; sourceTree = "<group>"; };
 		B05A670228A535FA0071548D /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -214,6 +216,7 @@
 				B00C39E128A3DF7400A94237 /* CourseEditorMockup.swift */,
 				B00C39E928A3F98300A94237 /* ActivityEditorMockup.swift */,
 				B00C39E728A3F6D100A94237 /* MockupHelpers.swift */,
+				B02F830828A549F1007F2F90 /* FigmaMockup.swift */,
 			);
 			path = Mockup;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				B05A670328A535FA0071548D /* TodoListView.swift in Sources */,
 				B00C39EC28A3F99000A94237 /* CourseKit.swift in Sources */,
 				B00C39AC28A2FE9200A94237 /* LandingView.swift in Sources */,
+				B02F830928A549F1007F2F90 /* FigmaMockup.swift in Sources */,
 				B02F830728A53850007F2F90 /* TodoItem.swift in Sources */,
 				B00C39DE28A3474E00A94237 /* Model.swift in Sources */,
 				B00C39F228A4443100A94237 /* CourseView.swift in Sources */,

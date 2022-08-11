@@ -75,3 +75,13 @@ func courseIconIterator(_ icon: Binding<Int>) -> some View {
     .frame(maxWidth: 25, maxHeight: 25)
     .buttonStyle(.borderless)
 }
+
+func gradientRectangle(color1: Color, color2: Color,
+                       start: UnitPoint = .topLeading, end: UnitPoint = .bottomTrailing,
+                       width: CGFloat = 600, height: CGFloat = 200,
+                       curveRadius: CGFloat = 0) -> some View {
+    return Rectangle()
+        .fill(LinearGradient(colors: [color1, color2], startPoint: start, endPoint: end))
+        .cornerRadius(curveRadius)
+        .frame(maxWidth: width, maxHeight: height)
+}
