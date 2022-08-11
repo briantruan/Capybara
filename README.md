@@ -4,7 +4,7 @@ Course activities tracker app built for college students (macOS)
 ## Contributing
 1. Install XCode
 2. Clone repo
-3. **Branch** off master, do not push directly to it
+3. **Branch** off master, do not push directly to it (not like you can anyways)
 4. Create a PR and wait for review
 5. Success
 
@@ -47,7 +47,7 @@ if (value)
 - `self` keyword is generally unnecessary, unless required by compiler
 
 ### Comments
-- Document ``///`` or mark ``// MARK:`` all funcs
+- Document ``///`` all funcs unless used to split up views
 - Todos ``// TODO:`` or fixmes ``// FIXME:``
 - Add comments if you think your implementation won't be understood, but that probably means your implementation is not good
 
