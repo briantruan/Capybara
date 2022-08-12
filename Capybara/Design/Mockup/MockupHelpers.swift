@@ -71,3 +71,77 @@ func mockTextField(_ desc: String, text: String,
     }
     .frame(maxWidth: width, alignment: .leading)
 }
+
+func mockMetric(_ desc: String, metric: String, trend: String) -> some View {
+    return VStack {
+        Group {
+            HStack {
+                Text(desc)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Image(systemName: "arrow.up.forward.square")
+                    .frame(maxWidth: 20, alignment: .trailing)
+            }
+            Spacer().frame(height: 40)
+            HStack {
+                Text(metric)
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Image(systemName: trend)
+                    .resizable()
+                    .frame(maxWidth: 30, maxHeight: 30)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .topLeading)
+    }
+    .frame(maxHeight: 120, alignment: .topLeading)
+    .padding()
+}
+
+func mockCourseAndGauge(_ desc: String, icon: String,
+                        metric: String, progress: Float) -> some View {
+    return HStack {
+        ZStack {
+            gradientRectangle(color1: .purple, color2: .gray,
+                              width: 30, height: 30, curveRadius: 10)
+            Image(systemName: icon)
+                .frame(maxWidth: 25, maxHeight: 25)
+        }
+        
+        Text(desc)
+            .fontWeight(.semibold)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        ZStack {
+            gradientRectangle(color1: .purple, color2: .gray,
+                              width: 60, height: 30, curveRadius: 10)
+            Text(metric)
+        }
+        ProgressView(value: progress, total: 100)
+            .tint(.purple)
+    }
+}
+
+func mockTodoItem(_ course: String, icon: String, item: String) -> some View {
+    return HStack {
+        Button {} label: {
+            Image(systemName: "checkmark.circle")
+        }
+        .buttonStyle(.borderless)
+        Button {} label: {
+            Image(systemName: "info.circle")
+        }
+        .buttonStyle(.borderless)
+        ZStack {
+            gradientRectangle(color1: .purple, color2: .gray,
+                              width: 30, height: 30, curveRadius: 10)
+            Image(systemName: icon)
+                .frame(maxWidth: 25, maxHeight: 25)
+        }
+        Text(course)
+            .fontWeight(.semibold)
+        Text(item)
+            .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)
+    }
+}
