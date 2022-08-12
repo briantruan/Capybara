@@ -29,7 +29,7 @@ func mockGauge(_ desc: String, displayedTime: String, progress: Float) -> some V
     return HStack {
         ZStack {
             ProgressView(value: progress)
-                .tint(.orange)
+                .tint(.green)
                 .progressViewStyle(.circular)
             Text(displayedTime)
                 .font(.system(size: 8))
@@ -45,7 +45,7 @@ func mockGauge(_ desc: String, displayedTime: String, progress: Float) -> some V
 func mockActivity() -> some View {
     return HStack {
         mockCircleButton("pencil.circle")
-            .tint(.orange)
+            .tint(.green)
         let difference = (Date.now.timeIntervalSinceReferenceDate/60 - Date(timeIntervalSinceNow: -3000).timeIntervalSinceReferenceDate/60)
         Text("\(Int(difference.rounded()))m Lecture:")
         Text("started at \(Date(timeIntervalSinceNow: -3000).formatted()),")
@@ -70,4 +70,78 @@ func mockTextField(_ desc: String, text: String,
             .frame(maxWidth: width, alignment: .leading)
     }
     .frame(maxWidth: width, alignment: .leading)
+}
+
+func mockMetric(_ desc: String, metric: String, trend: String) -> some View {
+    return VStack {
+        Group {
+            HStack {
+                Text(desc)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Image(systemName: "arrow.up.forward.square")
+                    .frame(maxWidth: 20, alignment: .trailing)
+            }
+            Spacer().frame(height: 40)
+            HStack {
+                Text(metric)
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Image(systemName: trend)
+                    .resizable()
+                    .frame(maxWidth: 30, maxHeight: 30)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .topLeading)
+    }
+    .frame(maxHeight: 120, alignment: .topLeading)
+    .padding()
+}
+
+func mockCourseAndGauge(_ desc: String, icon: String,
+                        metric: String, progress: Float) -> some View {
+    return HStack {
+        ZStack {
+            gradientRectangle(color1: .purple, color2: .gray,
+                              width: 30, height: 30, curveRadius: 10)
+            Image(systemName: icon)
+                .frame(maxWidth: 25, maxHeight: 25)
+        }
+        
+        Text(desc)
+            .fontWeight(.semibold)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        ZStack {
+            gradientRectangle(color1: .purple, color2: .gray,
+                              width: 60, height: 30, curveRadius: 10)
+            Text(metric)
+        }
+        ProgressView(value: progress, total: 100)
+            .tint(.purple)
+    }
+}
+
+func mockTodoItem(_ course: String, icon: String, item: String) -> some View {
+    return HStack {
+        Button {} label: {
+            Image(systemName: "checkmark.circle")
+        }
+        .buttonStyle(.borderless)
+        Button {} label: {
+            Image(systemName: "info.circle")
+        }
+        .buttonStyle(.borderless)
+        ZStack {
+            gradientRectangle(color1: .purple, color2: .gray,
+                              width: 30, height: 30, curveRadius: 10)
+            Image(systemName: icon)
+                .frame(maxWidth: 25, maxHeight: 25)
+        }
+        Text(course)
+            .fontWeight(.semibold)
+        Text(item)
+            .frame(maxWidth: .infinity, maxHeight: 20, alignment: .leading)
+    }
 }

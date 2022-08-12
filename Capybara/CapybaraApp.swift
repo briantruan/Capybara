@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct CapybaraApp: App {
+    
+    @ObservedObject private var model = Model()
+    
     var body: some Scene {
         WindowGroup {
             LandingView()
+                .environmentObject(model)
+                .onAppear {
+                    NSWindow.allowsAutomaticWindowTabbing = false
+                }
         }
     }
 }
